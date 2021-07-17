@@ -1,0 +1,309 @@
+* {margin:0px; padding:0px;font-weight: 600;}
+.cleaner
+{
+	clear:both;
+}
+
+body {
+	background-image:url(../pozadina.jpg);
+	background-size:cover;
+	
+	background-position:center;
+	margin:0 auto;
+}
+a:link, a:visited {
+	color:inherit;
+	text-decoration:none;
+}
+a:active {
+	color:#999;
+}
+a:hover {
+	text-decoration:underline;
+}
+
+ol {
+	margin-left:25px;
+}
+ul {
+	list-style-type:none;
+}
+
+/* every page */
+
+#omot {
+	width:1024px;
+	margin:0 auto; 
+}
+
+#header {
+	width:auto;
+	height:auto;
+	color:white;
+	padding-left:600px;
+	background-color:black; 
+}
+
+#header li,a {
+	display:inline-block; 
+	line-height:200%;
+	font-weight: 400;
+}
+
+#header1 ul li input {vertical-align:middle;}
+
+#headerF {
+	height:auto;
+	text-align:center; 
+	color:white;
+	background-color:black;
+}
+
+#headerF li {
+	display:inline-block; 
+	display:table-cell; 
+	vertical-align:middle; 
+	padding:0px 8px;
+	font-family: Arial;
+	font-size:28px;
+	text-align:center;
+}
+
+#footer {
+	height:auto;
+	text-align:center; 
+	color:white;
+	background-color:black;
+}
+
+#footer li {
+	display:inline-block; 
+	display:table-cell; 
+	vertical-align:middle; 
+	padding:0px 8px;
+	font-size:30px;
+	text-align:center;
+}
+
+#doc h1 ul 
+{
+	margin-left:270px;
+}	
+	
+#footer1 {
+	height:auto;
+	padding-left:300px;	
+}
+
+
+/* home */
+
+#logo {
+	width:1024px;
+	height:202px;
+	background-image:url(../logo.jpg);
+	background-repeat:no-repeat;
+}
+
+#slika {
+	background-image:url(../slika.jpg);
+	height:768px;
+}
+
+
+/* band and albums */
+
+#omot1 {
+	width:984px;
+	height:auto;
+	color:white;
+	padding:20px; 
+	background-color:rgba(000,0,0,0.6);
+}
+
+
+/* gallery */
+
+#omotgallery {
+	width:auto;
+	height:auto;
+	color:white;
+    background-color:rgba(000,0,0,0.6);
+	
+}
+
+.galleryDiv
+{
+	width:300px;
+	height:225px;
+	margin:20px;
+	float:left;
+}
+
+.galleryDiv img
+{
+	width:300px;
+	height:225px;
+}
+
+.galleryDiv a{width:300px; height:225px;}
+
+
+/* contact */
+
+#omot2 {
+	width:984px;
+	color:white; 
+	padding:20px;  
+}
+
+#contactLabel td
+{
+	width:300px;
+}
+
+.divcontact {
+	width:700px;
+	height:auto;
+	background-color:rgba(000,0,0,0.6);
+	color:white;
+	margin-bottom:30px;
+	padding:20px;
+}
+
+.userComment {
+	color:#cc33cc;
+}
+
+.commentField
+{
+	background-color:black;
+	padding:15px;
+}
+
+#commentContact hr{
+	margin:0 15px;
+}
+
+#searchComment h3
+{
+	text-align:right;
+}
+
+#searchComment input
+{
+	min-width:30px;
+}
+
+.divcontact textarea
+{
+	width:400px;
+	height:150px;
+	resize:none;
+}
+
+#divcontact1 {
+	width:auto;
+	height:auto;
+	background-color:rgba(000,0,0,0.6);
+	color:white;
+}
+
+
+/* author */
+
+#divauthor {
+	width:700px;
+	height:400px;
+	background-color:rgba(000,0,0,0.6);
+	margin:70px auto 300px;  
+}
+
+.divauthor1 {
+	width:330px;
+	height:auto;
+	color:white; 
+	float:left;
+}
+
+
+/* login and register */
+
+.divlogin {
+	margin: 150px auto;
+	width:700px;
+	height:auto;
+	background-color:rgba(000,0,0,0.6);
+	color:white;	
+}
+
+.divlogin table {
+	margin:0 auto;
+}
+
+.divlogin table td {
+	min-width: 80px;
+	height: 22px;
+}
+
+.divlogin table select {
+	width:70px;
+}
+
+.divlogin fieldset {
+	min-height: 160px;
+}
+
+.trButton {
+	height: 35px;
+}	
+
+#omotlogin {	
+	width:1024px;
+	height:650px;
+	color:white;
+	margin:0 auto;	
+}
+
+#omotlogin form legend {
+	color:white;
+	margin-left:20px;
+}
+
+.default {
+	visibility:hidden;
+}
+
+.red {
+	color:red;
+}
+
+.green {
+	color:green;
+}
+
+
+/* .tbWidth {
+	width:250px;
+} */
+
+
+
+/*#header1 {
+	padding-left:70px; vertical-align:middle;
+} */
+
+/* #omot1 table 
+{
+	border:1px solid white; 
+	padding:20px 20px 20px 0px;
+}
+ */
+ 
+ /* #divauthor2 {
+	width:700px;
+	height:auto;
+	background-color:rgba(000,0,0,0.6);
+	color:white;
+	margin:20px auto 100px;  
+} */
